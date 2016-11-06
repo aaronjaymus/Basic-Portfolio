@@ -20,7 +20,7 @@ h1 {
 	float: left;
 	margin-bottom: 0;
 	margin-top: 0;
-	margin-left: 100px;
+	margin-left: 10%;
 	font-size: 28px;
 
 }
@@ -44,6 +44,9 @@ h1, h2, h3 {
 p {
 	line-height: 1.5;
 }
+form {
+	line-height: 1.5;
+}
 a {
 	padding-left: 10px;
 	padding-right: 10px;
@@ -58,19 +61,22 @@ footer {
 	clear: both;
 	border-top: 5px solid #4aaaa5;
 }
+input {
+	width: 100%;
+}
 .topPageNav {
 	padding: 15px;
 	float: right;
 	width: 30%;
 }
-.mainContent {
+.main {
 	clear: both;
 	overflow: auto;
-	margin: 15px 100px 15px 100px;
+	margin: 15px 10% 15px 10%;
 
 }
-.aboutContent {
-	width: 50%;
+.content {
+	width: 60%;
 	float: left;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -83,16 +89,20 @@ footer {
 	padding-left: 20px;
 	padding-right: 20px;
 }
-.socialConnect, .aboutContent, .topPageNav {
+.socialConnect, .content, .topPageNav {
 	background-color: white;
 }
-.socialNav {
+.socialNav, .emailForm {
 	padding: 10px;
 }
+
 #profileImg {
 	float: left;
 	padding-right: 10px;
 	padding-top: 10px;
+}
+#message {
+	height: 200px;
 }
 * {
   -webkit-box-sizing: border-box;
