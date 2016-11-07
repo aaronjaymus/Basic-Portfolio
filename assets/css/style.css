@@ -122,6 +122,10 @@ td p {
 	height: 40px;
 	width: 40px;
 }
+.socialIcon:hover {
+	height: 50px;
+	width: 50px;
+}
 .socialConnect, .content, .topPageNav {
 	background-color: white;
 }
