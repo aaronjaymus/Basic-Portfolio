@@ -68,15 +68,17 @@ input {
 	padding: 15px;
 	float: right;
 	width: 30%;
+	margin-right: 5%;
 }
 .main {
 	clear: both;
 	overflow: auto;
 	margin: 15px 10% 15px 10%;
+	width: 970px;
 
 }
 .content {
-	width: 60%;
+	width: 650px;
 	float: left;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -85,9 +87,13 @@ input {
 .socialConnect {
 	text-align: center;
 	float: right;
-	width: 30%;
+	width: 270px;
 	padding-left: 20px;
 	padding-right: 20px;
+}
+.socialIcon {
+	height: 40px;
+	width: 40px;
 }
 .socialConnect, .content, .topPageNav {
 	background-color: white;
